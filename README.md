@@ -1,4 +1,4 @@
-# Demon Music Bot
+# Ledy Music Bot
 
 ![logo](https://telegra.ph/file/50694e1b2a639f38c6dfd.jpg)
 
@@ -6,9 +6,9 @@ Azərbaycan dilində Song Bot 🎵
 
 Repo demo versiyadır
 
-✅ Əsas Bot: [𝗗𝗲𝗺𝗼𝗻 𝗠𝘂𝘀𝗶𝗰](https:t.me/DemonMusicBot)
 
-✅ Rəsmi Telegram Kanal: [Botsinator](https:t.me/Botsinator)
+
+✅ Rəsmi Telegram Kanal: [Botsinator](https:t.me/ledyplaylist)
 
 # Lazım Olanlar
 
@@ -21,6 +21,6 @@ Repo demo versiyadır
 - BOT_USERNAME - Botun kullanıcı adı
 
 # Deploy
-<a href="https://heroku.com/deploy?template=https://github.com/ByFragment/DemonMusic-Demo-">
+<a href="https://heroku.com/deploy?template=https://github.com/AzeMusic/LedyDemonMusicBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
