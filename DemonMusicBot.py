@@ -1,6 +1,6 @@
-#Buralara əl dəymə...
+#Ledy Lisensia...```Dev```
 #Deploy butonuna bas deploy elə.
-#Rəsmi Kanal t.me/Botsinator 
+#Rəsmi Kanal t.me/ledyplaylist
 
 import os, youtube_dl, requests, time
 from config import Config
@@ -17,7 +17,7 @@ from pyrogram.types import (
 #config#
 
 bot = Client(
-    'DemonBot',
+    'LedyBot',
     bot_token = Config.BOT_TOKEN,
     api_id = Config.API_ID,
     api_hash = Config.API_HASH
@@ -27,13 +27,13 @@ bot = Client(
 
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    demon = f'👋 **Salam** {message.from_user.mention}\n\n**ℹ️ Mən musiqi, video yükləmək üçün yaradılmış botam və istədiyiniz mahnının sözlərini məndən öyrənə bilərsiniz 😁**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün** /help **əmrindən istifadə edin**'
+    demon = f'👋 **Salam** {message.from_user.mention}\n\n**ℹ️ Mən musiqi, video yükləmək üçün yaradılmış botam və istədiyiniz mahnının sözlərini məndən öyrənə bilərsiniz 🌹**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün** /help **əmrindən istifadə edin**'
     message.reply_text(
         text=demon, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Botsinator'),
+                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/ledyplaylist'),
                     InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/{Config.PLAYLIST_NAME}')
                   ],[
                     InlineKeyboardButton('Sahib 👨🏻‍💻', url=f'T.me/{Config.BOT_OWNER}')
@@ -52,7 +52,7 @@ def help(client, message):
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/Botsinator'),
+                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/ledyplaylist'),
                     InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/{Config.PLAYLIST_NAME}')
                   ],[
                     InlineKeyboardButton('Sahib 👨🏻‍💻', url=f'T.me/{Config.BOT_OWNER}')
@@ -65,7 +65,7 @@ def help(client, message):
 
 @bot.on_message(filters.command("alive") & filters.user(Config.BOT_OWNER))
 async def live(client: Client, message: Message):
-    livemsg = await message.reply_text('`Mükəmməl İşləyirəm 😎`')
+    livemsg = await message.reply_text('`Narahat olma Mükəmməl İşləyirəm 😎`')
     
 #musiqi əmri#
 
@@ -111,14 +111,14 @@ def a(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"🎵 Yüklədi [Music Bot](https://t.me/{Config.BOT_USERNAME})"
+        rep = f"✅ **Yüklədi** [Ledy Bot](https://t.me/{Config.BOT_USERNAME})"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         message.reply_audio(audio_file, caption=rep, parse_mode='md',quote=False, title=title, duration=dur, thumb=thumb_name, performer="@Botsinator")
         m.delete()
-        bot.send_audio(chat_id=Config.PLAYLIST_ID, audio=audio_file, caption=rep, performer="@Botsinator", parse_mode='md', title=title, duration=dur, thumb=thumb_name)
+        bot.send_audio(chat_id=Config.PLAYLIST_ID, audio=audio_file, caption=rep, performer="Botsinator", parse_mode='md', title=title, duration=dur, thumb=thumb_name)
     except Exception as e:
         m.edit('**⚠️ Gözlənilməyən xəta yarandı.**\n**Xahiş edirəm xətanı sahibimə xəbərdar et!**')
         print(e)
@@ -130,6 +130,6 @@ def a(client, message):
 
 def time_to_seconds(time):
     stringt = str(time)
-    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
+    return sum(int(x) * 10 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 bot.run()
