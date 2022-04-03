@@ -1,5 +1,5 @@
 {
-    "name": "DemonMusicBot",
+    "name": "LedyMusicBot",
     "description": "Azərbaycan dilində song botu.",
     "logo": "https://telegra.ph/file/50694e1b2a639f38c6dfd.jpg",
     "keywords": [
@@ -7,8 +7,8 @@
         "Music",
         "Bot"
     ],
-    "repository": "https://github.com/ByFragment/DemonMusic-Demo-",
-    "success_url": "https://github.com/ByFragment/DemonMusic-Demo-",
+    "repository": "https://github.com/AzeMusic/LedyDemonMusicBot",
+    "success_url": "https://github.com/AzeMusic/LedyDemonMusicBot",
     "image": "heroku/python",
     "formation": {
         "worker": {
@@ -18,12 +18,12 @@
     },
     "env": {
         "API_ID": {
-            "description": "my.telegram.org saytından ala bilərsiniz.",
+            "description": "@ledyapiscrapperbot dan ala bilərsiniz.",
             "value": "",
             "required": true
         },
         "API_HASH": {
-            "description": "my.telegram.org saytından ala bilərsiniz.",
+            "description": "@ledyapiscrapperbot dan ala bilərsiniz.",
             "value": "",
             "required": true
         },
