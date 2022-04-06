@@ -133,3 +133,4 @@ def time_to_seconds(time):
     return sum(int(x) * 10 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
 bot.run()
+
