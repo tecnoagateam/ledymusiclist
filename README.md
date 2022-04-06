@@ -1,6 +1,6 @@
 # Ledy Music Bot
 
-![logo](https://telegra.ph/file/50694e1b2a639f38c6dfd.jpg)
+![logo](https://te.legra.ph/file/752d301f75300277b0f63.jpg)
 
 Azərbaycan dilində Song Bot 🎵
 
