@@ -8,7 +8,7 @@ Repo demo versiyadır
 
 
 
-✅ Rəsmi Telegram Kanal: [Botsinator](https:t.me/ledyplaylist)
+🛠️ Suppor Group: [](https:t.me/ledyplaylist)
 
 # Lazım Olanlar
 
