@@ -1,14 +1,14 @@
 {
     "name": "LedyMusicBot",
     "description": "Azərbaycan dilində song botu.",
-    "logo": "https://telegra.ph/file/50694e1b2a639f38c6dfd.jpg",
+    "logo": "https://te.legra.ph/file/752d301f75300277b0f63.jpg",
     "keywords": [
         "Demon",
         "Music",
         "Bot"
     ],
-    "repository": "https://github.com/AzeMusic/LedyDemonMusicBot",
-    "success_url": "https://github.com/AzeMusic/LedyDemonMusicBot",
+    "repository": "https://github.com/AzeMusic/ledymusiclist",
+    "success_url": "https://github.com/AzeMusic/ledymusiclist",
     "image": "heroku/python",
     "formation": {
         "worker": {
