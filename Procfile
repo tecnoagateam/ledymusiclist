@@ -1,1 +1,1 @@
-worker: python3 DemonMusicBot.py
+worker: python3 LedyMusicBot.py
