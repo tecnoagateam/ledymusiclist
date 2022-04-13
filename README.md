@@ -2,9 +2,9 @@
 
 ![logo](https://te.legra.ph/file/752d301f75300277b0f63.jpg)
 
-Azərbaycan dilində Song Bot 🎵
+###  Song Bot 🎵
 
-Repo demo versiyadır
+Repo ```keyfiyyətsiz```
 
 
 
