@@ -31,6 +31,5 @@
 
 ![logo](https://te.legra.ph/file/752d301f75300277b0f63.jpg)
 
-
-<a href="MR BOTS"
+<a href="https://t.meSOQrup">
 </a>
