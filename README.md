@@ -7,7 +7,9 @@
 - 🤡Repo ```köhnə```
 
 - Owner [MR AĞA](t.me/Tenha055)
+
 - support U [😈](t.me/ruzgar_alican)
+
 - 🛠️ Dəstək: [support](https:t.me/ledyplaylist)
 
 # ⚕️Lazım Olanlar
