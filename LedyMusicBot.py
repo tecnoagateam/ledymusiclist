@@ -1,5 +1,5 @@
-#Ledy Lisensia...```Dev```
-#Deploy butonuna bas deploy elə.
+#Ledy Lisensia ```Dev```
+#yandex music start!
 #Rəsmi Kanal t.me/ledyplaylist
 
 import os, youtube_dl, requests, time
