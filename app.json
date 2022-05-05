@@ -1,9 +1,9 @@
 {
     "name": "LedyMusicBot",
-    "description": "Azərbaycan dilində song botu.",
+    "description": "Telegram Ledy Services song bot.",
     "logo": "https://te.legra.ph/file/752d301f75300277b0f63.jpg",
     "keywords": [
-        "Demon",
+        "Ledy",
         "Music",
         "Bot"
     ],
